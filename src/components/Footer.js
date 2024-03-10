@@ -72,7 +72,7 @@ const Footer = () => {
           </div>
           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">
-              SUBSCRIBE
+              FOR NEW USERS
             </h2>
             <div class="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
               <div class="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
@@ -80,7 +80,7 @@ const Footer = () => {
                   for="footer-field"
                   class="leading-7 text-sm text-gray-400"
                 >
-                  Placeholder
+                  Registration
                 </label>
                 <input
                   type="text"
