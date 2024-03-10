@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Justwravel/static/css/main.64e24dd8.css",
+    "main.js": "/Justwravel/static/js/main.f322c7e7.js",
+    "index.html": "/Justwravel/index.html",
+    "main.64e24dd8.css.map": "/Justwravel/static/css/main.64e24dd8.css.map",
+    "main.f322c7e7.js.map": "/Justwravel/static/js/main.f322c7e7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64e24dd8.css",
+    "static/js/main.f322c7e7.js"
+  ]
+}
