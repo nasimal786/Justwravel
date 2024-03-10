@@ -19,7 +19,7 @@ const Header = () => {
             >
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
             </svg>
-            <Link to={"/"}>
+            <Link to={"/Justwravel"}>
               <span className="ml-3 hover:text-gray-400 text-xl cursor-pointer">
                 Assignment
               </span>
@@ -27,7 +27,7 @@ const Header = () => {
           </a>
           <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
             <Link
-              to={"/"}
+              to={"/Justwravel"}
               className="mr-5 text-white hover:text-gray-400 cursor-pointer"
             >
               Home
