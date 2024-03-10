@@ -28,15 +28,17 @@ const ProductList = () => {
     setSortOrder((prevSortOrder) => (prevSortOrder === "asc" ? "desc" : "asc"));
   };
 
-  const filteredAndSortedProducts = products
-    .filter(
+  const filteredAndSortedProducts = () => {
+    const filteredProducts = products.filter(
       (product) => !filteredCategory || product.category === filteredCategory
-    )
-    .sort((a, b) => {
+    );
+
+    return filteredProducts.sort((a, b) => {
       const priceA = a.price;
       const priceB = b.price;
       return sortOrder === "asc" ? priceA - priceB : priceB - priceA;
     });
+  };
 
   return (
     <div className="max-w m-6 text-xs">
@@ -75,7 +77,7 @@ const ProductList = () => {
 
       {/* Render the product cards based on the sorting and filtering */}
       <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-        {filteredAndSortedProducts.map((product) => (
+        {filteredAndSortedProducts().map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}
       </div>

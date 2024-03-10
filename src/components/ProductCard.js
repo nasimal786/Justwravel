@@ -24,7 +24,7 @@ const ProductCard = ({ product }) => {
           </h4>
           <div className="flex mt-auto lg:flex-row flex-col">
             <StarRating rating={rating?.rate} />
-            <p className="text-gray-500 ml-1">{`(${rating?.count || 0} reviews)`}</p>
+            {rating?.count && <p className="text-gray-500 ml-1">{`(${rating.count} reviews)`}</p>}
           </div>
           <p className="text-base font-bold">Buy at: ${price}</p>
           <p className="text-gray-700 mb-2">{category}</p>
