@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import StarRating from "./StarRating";
 
 const ProductCard = ({ product }) => {
-  const { id, title, image, price, category, rating } = product;
+  const { id, title, image, price, category, rating, description } = product;
 
   return (
     <Link
@@ -23,13 +23,13 @@ const ProductCard = ({ product }) => {
             {title}
           </h4>
           <div className="flex mt-auto lg:flex-row flex-col">
-            <StarRating rating={rating.rate} />
-            <p className="text-gray-500 ml-1">{`(${rating.count} reviews)`}</p>
+            <StarRating rating={rating?.rate} />
+            <p className="text-gray-500 ml-1">{`(${rating?.count || 0} reviews)`}</p>
           </div>
           <p className="text-base font-bold">Buy at: ${price}</p>
           <p className="text-gray-700 mb-2">{category}</p>
           <p className="text-gray-700 mb-2 overflow-hidden line-clamp-2">
-            {product.description}
+            {description}
           </p>
         </div>
       </div>
