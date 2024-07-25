@@ -121,7 +121,7 @@ const Footer = () => {
           </a>
           <p class="text-sm text-gray-400 sm:ml-6 sm:mt-0 mt-4">
             © 2024 Tailblocks —
-            <a href="https://www.google.co.uk/"
+            <a 
               href="https://twitter.com/knyttneve"
               class="text-gray-500 ml-1"
               target="_blank"
