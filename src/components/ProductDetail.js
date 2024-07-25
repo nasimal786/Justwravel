@@ -4,7 +4,7 @@ import axios from "axios";
 import StarRating from "./StarRating";
 
 const ProductDetail = () => {
-  const { category, id } = useParams();
+  const { id } = useParams();
   const [product, setProduct] = useState(null);
 
   useEffect(() => {
