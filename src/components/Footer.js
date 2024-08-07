@@ -12,17 +12,17 @@ const Footer = () => {
             <nav class="list-none mb-10">
               <li class="flex items-center">
                 <span class="text-gray-400 hover:text-white text-xl mr-2">📍</span>
-                <a href="https://www.google.co.uk/" class="text-gray-400 hover:text-white">
+                <a href="/" class="text-gray-400 hover:text-white">
                   B-128, Near Boon Medical New Ashok Nagar, Delhi (110096)
                 </a>
               </li>
               <li>
                 <span class="text-gray-400 hover:text-white text-xl mr-2">☎️</span>
-                <a href="https://www.google.co.uk/" class="text-gray-400 hover:text-white">8709802512</a>
+                <a href="/" class="text-gray-400 hover:text-white">8709802512</a>
               </li>
               <li>
                 <span class="text-gray-400 hover:text-gray text-xl mr-2">✉️</span>
-                <a href="https://www.google.co.uk/" class="text-gray-400 hover:text-white">
+                <a href="/" class="text-gray-400 hover:text-white">
                   al.nasim093@gmail.com
                 </a>
               </li>
@@ -36,16 +36,16 @@ const Footer = () => {
             </h2>
             <nav class="list-none mb-10">
               <li>
-                <a href="https://www.google.co.uk/" class="text-gray-400 hover:text-white">Contact Us</a>
+                <a href="/" class="text-gray-400 hover:text-white">Contact Us</a>
               </li>
               <li>
-                <a href="https://www.google.co.uk/" class="text-gray-400 hover:text-white">About Us</a>
+                <a href="/" class="text-gray-400 hover:text-white">About Us</a>
               </li>
               <li>
-                <a href="https://www.google.co.uk/" class="text-gray-400 hover:text-white">Careeres</a>
+                <a href="/" class="text-gray-400 hover:text-white">Careeres</a>
               </li>
               <li>
-                <a href="https://www.google.co.uk/" class="text-gray-400 hover:text-white">Privacy policy</a>
+                <a href="/" class="text-gray-400 hover:text-white">Privacy policy</a>
               </li>
             </nav>
           </div>
@@ -55,18 +55,18 @@ const Footer = () => {
             </h2>
             <nav class="list-none mb-10">
               <li>
-                <a href="https://www.google.co.uk/" class="text-gray-400 hover:text-white">Payments</a>
+                <a href="/" class="text-gray-400 hover:text-white">Payments</a>
               </li>
               <li>
-                <a href="https://www.google.co.uk/" class="text-gray-400 hover:text-white">Shipping</a>
+                <a href="/" class="text-gray-400 hover:text-white">Shipping</a>
               </li>
               <li>
-                <a href="https://www.google.co.uk/" class="text-gray-400 hover:text-white">
+                <a href="/" class="text-gray-400 hover:text-white">
                   Cancellation & Retuens
                 </a>
               </li>
               <li>
-                <a href="https://www.google.co.uk/" class="text-gray-400 hover:text-white">FAQ</a>
+                <a href="/" class="text-gray-400 hover:text-white">FAQ</a>
               </li>
             </nav>
           </div>
@@ -104,7 +104,7 @@ const Footer = () => {
       </div>
       <div class="bg-gray-800 bg-opacity-75">
         <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
-          <a href="https://www.google.co.uk/" class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+          <a href="/" class="flex title-font font-medium items-center md:justify-start justify-center text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -131,7 +131,7 @@ const Footer = () => {
             </a>
           </p>
           <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-            <a href="https://www.google.co.uk/" class="text-gray-400">
+            <a href="/" class="text-gray-400">
               <svg
                 fill="currentColor"
                 stroke-linecap="round"
@@ -143,7 +143,7 @@ const Footer = () => {
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
               </svg>
             </a>
-            <a href="https://www.google.co.uk/" class="ml-3 text-gray-400">
+            <a href="/" class="ml-3 text-gray-400">
               <svg
                 fill="currentColor"
                 stroke-linecap="round"
@@ -155,7 +155,7 @@ const Footer = () => {
                 <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
               </svg>
             </a>
-            <a href="https://www.google.co.uk/" class="ml-3 text-gray-400">
+            <a href="/" class="ml-3 text-gray-400">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -169,7 +169,7 @@ const Footer = () => {
                 <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
               </svg>
             </a>
-            <a href="https://www.google.co.uk/" class="ml-3 text-gray-400">
+            <a href="/" class="ml-3 text-gray-400">
               <svg
                 fill="currentColor"
                 stroke="currentColor"
